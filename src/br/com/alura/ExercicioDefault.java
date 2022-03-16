@@ -1,5 +1,6 @@
 package br.com.alura;
 
+import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -18,9 +19,9 @@ public class ExercicioDefault {
         cursos.add("JPA e Hibernate");
         cursos.add("Docker");
 
-        cursos.forEach(consumidor -> System.out.println(consumidor));
+        cursos.forEach(System.out::println);
 
-        cursos.sort((s1, s2) -> s1.length() - s2.length());
+        cursos.sort(Comparator.comparing(String::length));
 
         System.out.println(cursos);
 
