@@ -12,5 +12,5 @@
 - :ship: Dê seus primeiros passos na programação funcional :ship:
 
 ### :eyeglasses: Sobre :eyeglasses:
-Parte da trilha de cursos Java da [alura](https://cursos.alura.com.br)
-[link](https://cursos.alura.com.br/course/java8-lambdas)
+- Parte da trilha de cursos Java da [alura](https://cursos.alura.com.br)
+- [link](https://cursos.alura.com.br/course/java8-lambdas)
